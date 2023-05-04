@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaClient } from '@prisma/client';
+
 import { configs } from '../common/configs';
 
 @Injectable()
